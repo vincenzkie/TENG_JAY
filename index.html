@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tags Activity</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #dbe6f6, #c5796d); 
+            color: #2c3e50;
+            text-align: center;
+        }
+        h1 {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 20px;
+        }
+        p, a {
+            font-size: 16px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #2c3e50;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+        caption {
+            font-weight: bold;
+            margin: 10px;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        /* internal style for pair */
+        .about-us {
+            background: #fef9e7;
+            padding: 15px;
+            margin: 20px auto;
+            width: 70%;
+            border-radius: 12px;
+            border: 2px dashed #2c3e50;
+        }
+        .pair-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #8e44ad;
+        }
+        /* fix for bullet lists */
+        ul, ol {
+            text-align: left;
+            display: inline-block;
+            margin: 10px auto;
+            padding-left: 25px;
+        }
+        /* image styling */
+        img {
+            margin: 20px 0;
+            border: 3px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- INLINE CSS -->
+    <h1 style="color: crimson; font-style: italic; text-shadow: 2px 2px black;">
+        Welcome to Jay and Teng HTML Activity
+    </h1>
+
+    <p style="background-color: yellow; font-weight: bold; padding: 10px; border-radius: 8px;">
+        Hi! Good Day, everyone! (This is styled using INLINE CSS)
+    </p>
+
+    <h2>Information:</h2>
+    <p>I am <b>Jay Mark C. Detuito</b> and I am 20 years old.</p>
+    <p>I am <b>Vincen B. Malaca</b> and I am 21 years old.</p>
+    <a href="https://www.facebook.com/jaymark.detuito" target="_blank" style="background: lightblue; padding: 5px 10px; border-radius: 5px;">
+        Click here to view other information
+    </a> 
+
+    <h2>HOBBIES</h2>
+    <h3>Jay's Hobbies:</h3>
+    <ul>
+        <li>Playing badminton</li>
+        <li>Watching random videos</li>
+        <li>Watching sunset</li>
+    </ul>
+
+    <h3>Vincen's Hobbies :</h3>
+    <ol>
+        <li>Watching Anime</li>
+        <li>Filming</li>
+        <li>Photography</li>
+    </ol>
+
+    <h2>Jay and Teng Picture</h2>
+    <img src="C:\Users\jayma\OneDrive\Desktop\543466973_775685731988372_27904783239274284_n.jpg" alt="Picture together" width="300" height="250">
+
+    <h2>Table Example</h2>
+    <table>
+        <caption>Student Information</caption>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Jay Mark Detuito</td>
+            <td>Ragay, Camarines Sur</td>
+            <td>jaymarkdetuito6@example.com</td>
+        </tr>
+        <tr>
+            <td>Vincen Malaca</td>
+            <td>Ragay, Camarines Sur</td>
+            <td>vincenbacsa@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Internal CSS Example -->
+    <div class="about-us">
+        <p class="pair-title">About Our Pair Work</p>
+        <p>Jay focuses on <b>web development and coding</b>, while Vincen contributes his <b>creativity in design and media</b>. Together, we balance technical skills and artistic style.</p>
+    </div>
+
+    <!-- External CSS Example -->
+    <div class="highlight-box">
+        This box is styled using EXTERNAL CSS.
+    </div>
+
+</body>
+</html>
